@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    background-color: #0f0f0f;
+    color: beige;
+    flex-direction: column;
+}
+
+.navbox {
+    display: flex;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 0.6ex;
+    color: limegreen;
+    background-color: #3b3b3b;
+    font-weight: bold;
+    width: 468px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.navheader {
+    display: block;
+    padding: 0.3ex;
+    margin: 0.3ex;
+    border-radius: 0.6ex;
+    color: red;
+    background-color: #3b3b3b;
+    font-weight: bold;
+    width: 468px;
+    text-align: center;
+    font-size: larger;
+}
+
+.codebox {
+    text-align: right;
+    justify-content: right;
+    border: blue;
+}
