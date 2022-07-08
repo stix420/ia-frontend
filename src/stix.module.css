@@ -13,7 +13,7 @@
     color: limegreen;
     background-color: #3b3b3b;
     font-weight: bold;
-    width: 468px;
+
     justify-content: space-between;
     text-align: center;
 }
@@ -26,7 +26,7 @@
     color: red;
     background-color: #3b3b3b;
     font-weight: bold;
-    width: 468px;
+
     text-align: center;
     font-size: larger;
 }
