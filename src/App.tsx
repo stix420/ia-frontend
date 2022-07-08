@@ -21,14 +21,17 @@ const App: Component = () => {
   }, 1500);
 
   return (
-    <div class={stix.navbar}>
-      <div class={stix.navheader}>GAME</div>
-      <div class={stix.navbox}>Game Score:<span class={stix.codebox}>{score()}/200</span></div>
-      <div class={stix.navbox}>Dealer Long:<span class={stix.codebox}>{long()}</span></div>
-      <div class={stix.navbox}>Dealer Short:<span class={stix.codebox}>{short()}</span></div>
-      <div class={stix.navbox}>Direction:<span class={stix.codebox}>{direction()}</span></div>
-      <div class={stix.navbox}>{score() >= 0 ? "Long gamma is sustaining" : "Short gamma is reversing"} momentum {direction()} towards {target()}</div>
-    </div>
+    <> 
+      <div class={stix.navbar}>
+        <p class={stix.navheader}>Gamma Assisted Momentum Engine</p>
+        <p class={stix.navbox}>Game Score: <span class={ stix.codebox }> { score() } / 200 </span></p>
+        <p class={stix.navbox}>Dealer Short: <span class={ stix.codebox }> { short() } </span></p>
+        <p class={stix.navbox}>Dealer Long: <span class={ stix.codebox }> { long() } </span></p>
+        <p class={stix.navbox}>Direction: <span class={ stix.codebox }> { direction() } </span></p>
+        <p class={stix.navbox}> { score() >= 0 ? "Long gamma is sustaining" : "Short gamma is reversing"
+} momentum { direction()} towards { target() } </p>
+      </div>
+    </>
   );
 };
 
