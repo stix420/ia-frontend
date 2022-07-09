@@ -3,6 +3,7 @@
     background-color: #0f0f0f;
     color: beige;
     flex-direction: column;
+    max-width: 500px;
 }
 
 .navbox {
@@ -13,7 +14,7 @@
     color: limegreen;
     background-color: #3b3b3b;
     font-weight: bold;
-
+    max-width: 500px;
     justify-content: space-between;
     text-align: center;
 }
@@ -26,7 +27,7 @@
     color: red;
     background-color: #3b3b3b;
     font-weight: bold;
-
+    max-width: 500px;
     text-align: center;
     font-size: larger;
 }
